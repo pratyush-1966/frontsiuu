@@ -21,7 +21,7 @@ const PotteryFullDetails = ({ potteries }) => {
         return;
       }
 
-       await axios.post('https://newbackend-production-81fe.up.railway.app/api/v1/items', { ...potteryItem }, {
+       await axios.post('https://newbackend-production-7872.up.railway.app/api/v1/items', { ...potteryItem }, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

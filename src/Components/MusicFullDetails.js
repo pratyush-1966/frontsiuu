@@ -21,7 +21,7 @@ const MusicFullDetails = ({ musics }) => {
         return;
       }
 
-      await axios.post('https://newbackend-production-81fe.up.railway.app/api/v1/items', { ...musicItem }, {
+      await axios.post('https://newbackend-production-7872.up.railway.app/api/v1/items', { ...musicItem }, {
         headers: {
           'Authorization': `Bearer ${token}`
         }
